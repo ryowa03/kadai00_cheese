@@ -1,0 +1,586 @@
+
+
+
+body {
+    max-width: 1200px;
+    margin: 0 auto; /* ページを中央寄せにするためのマージン指定 */
+    padding: 20px; /* 余白 */
+    text-align: center; 
+}
+
+
+.header{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.header img{
+/* display: block; */
+margin-left: 30px;
+}
+
+.header-tx{
+display: flex;
+margin-top: 30px;
+margin-left: 130px;
+}
+
+.header2{
+width: 75px;
+font-size: 21px;
+margin-right: 50px;
+}
+
+
+
+
+
+.mainbg{
+
+   text-align: center; /* テキストを中央揃えにする */
+    /* ブロック要素として表示 */
+    /* 左右のマージンを自動で調整して中央揃えにする */
+margin-bottom: 60px;
+
+
+}
+
+.mainbg img {
+    /* mainbgの中のimgを指す */
+    width: 100%;
+}
+/* ↑これらを試したけど画像が中央にならない
+→解決　 */
+
+
+
+.text{position: absolute;
+    top: 25%;
+/* 親要素のトップがらどれだけ離れているか */
+font-size: 40px;
+margin-left: 300px;
+color: #fff;
+}
+
+.textdown{
+position:absolute;top: 33%;
+font-size: 25px;
+margin-left: 340px;
+color: #fff;
+}
+
+
+.menu1{  
+    color: goldenrod;
+    font-size: 24px;
+    margin-bottom: 30px;
+margin-left:0px ;
+font-weight: bold;
+}
+
+
+.block{
+
+text-align: center;
+
+}
+    
+
+    .abouttoptext{
+margin-bottom: 45px;
+text-align: center; 
+font-size: 18px;
+    }
+
+
+.abouttext{
+margin-bottom: 80px;
+font-size: 16px;
+text-align: center; 
+line-height: 1.75;
+}
+
+
+.img2{
+
+    display: flex;
+    margin-bottom: 60px;
+
+}
+/* ↑画像の幅変えられん */
+.img2 img {
+    width: 25%;
+}
+
+.menu2{color: black;
+font-size: 24px;
+margin-bottom: 30px;
+font-weight: bold;}
+
+
+.coursetext{
+    text-align: center; 
+    margin-bottom: 60px;
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+
+.img3all{
+    display: flex;
+    background-color: rgb(255, 253, 253);
+}
+
+.img3all img{
+width: 50%;
+}
+
+.img3text {
+width: 50%;
+font-size: 16px;
+margin: auto;
+text-align: left;
+margin-left: 50px;
+}
+ 
+.text3top{
+    font-weight: bold;
+font-size: 20px;
+margin-bottom: 15px;
+}
+
+.text3{
+    line-height: 1.75;
+}
+
+
+.img4all {
+    display: flex;
+    background-color: rgb(255, 253, 253);
+}
+
+.text4top{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+
+
+.img4text{
+/* width: 50%; */
+margin: auto;
+font-size: 16px;
+text-align: left;
+line-height: 1.75;
+margin-right: 50px;
+}
+
+
+.img4all img{
+width: 50%;
+margin-right: 0;
+}
+
+.img5all{
+display: flex;
+margin-bottom: 60px;
+background-color: rgb(255, 253, 253);
+}
+
+.img5all img{
+width: 50%;
+margin-left: 0px;
+}
+
+.img5text{
+    width: 50%;
+font-size: 16px;
+margin: auto;
+text-align: left;
+margin-left: 50px;
+}
+
+.text5top{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.text5{
+    line-height: 1.75;
+}
+
+
+.menu3{color: goldenrod;
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: bold;}
+
+
+.news{
+    font-size: 16px;
+    text-align:center;
+    margin-bottom: 60px;
+
+}
+
+
+
+.newsall{
+    display: flex;
+    justify-content: center; /* 水平方向に中央配置 */
+    align-items: center; /* 垂直方向に中央配置 */
+    margin-bottom: 60px;
+}
+
+
+.news1:hover {
+        opacity: 0.6;
+    }
+
+    .imgtext1{
+        text-align: left;
+        font-size: 14px;
+    }
+
+.imgtext2{
+    text-align: left;
+margin-top: 20px;
+font-size: 14px;
+line-height: 2;
+}
+
+
+
+.news1 img{
+margin-right: 30px;
+margin-bottom: 30px;
+}
+
+
+.news2 img{
+    margin-right: 30px;
+margin-bottom: 30px;
+}
+   
+    .news2:hover {
+        opacity: 0.6;
+    }
+
+    .news3 img{
+        margin-right: 30px;
+        margin-bottom: 30px;
+        }
+
+        .news3:hover {
+            opacity: 0.6;
+        }
+
+.menu4{  
+text-align: center; 
+font-weight: bold;
+font-size: 18px;
+width: 300px;
+height: 60px;
+line-height:60px;
+/* ↑ボタンの中の文字を高さを中央に */
+margin-bottom: 60px;
+display: inline-block;
+padding: 0.6em 2em;
+background-color: #ffd700;
+color: #fff;
+cursor: pointer;
+transition: all 0.3s ease 0s;
+}
+.menu4:hover {
+opacity: 0.6;
+}
+
+
+.accessall{
+background-color: rgba(251, 246, 246, 0.595); 
+padding: 60px;
+margin-bottom: 60px;
+}
+
+.menu5{color: black;
+    font-size: 24px;
+  margin-bottom: 30px;
+text-align: center; 
+font-weight: bold; 
+}
+ /* アクセス */
+
+
+ .gaiyo{
+margin-bottom: 60px;
+ }
+
+.tizu{
+  
+
+   margin-bottom: 60px;}
+
+
+
+.tizutext{
+ width: 600px;
+line-height: 2.5;
+padding: 4%;
+margin: 0 auto;
+font-size: 16px;
+
+}
+
+
+.tizutext1{
+    text-align: left;
+}
+
+
+
+    .menu4text{
+        text-align: center; 
+font-size: 16px;
+margin-bottom: 70px;
+
+    }
+
+
+    .form{
+margin-top: 50px;
+/* margin-bottom: 30px; */
+
+/* text-align: center; */
+/* display: flex; */
+/* ↑なぜかディスプレイフレックスを入れると左寄りになる */
+    }
+
+.form1{
+height: 25px;
+}
+
+
+.form-row{
+display: flex;
+justify-content: center;
+align-items: center;
+/* margin-right: 120px; */
+
+}
+
+    .form-row  .p1{
+        /* display: inline; */
+        width: 30%;
+        
+    }
+
+
+    .form-row  .p1m{
+        /* display: inline; */
+        width: 30%;
+     text-align: left;
+    }
+
+
+
+ 
+ .form-row2 {
+    display: flex;
+/* justify-content: center; */
+
+ }
+
+
+ .form-row2 .p2{
+width: 50%;
+/* margin-right:50%; */
+/* margin-left: 150px;  */
+}
+
+
+      
+
+.radio{display: flex;
+}
+
+.radio .p5{
+width: 50%;
+}
+
+.radio .box-row{
+    text-align: left;
+    line-height: 3;
+}
+
+
+.form1-big{
+    height: 100px;
+    width: 20%;
+}
+
+.form-row .p1-big{
+    vertical-align: top;
+}
+
+
+
+
+
+
+.menu6{  
+    text-align: center; 
+    
+    font-size: 18px;
+    width: 300px;
+    height: 60px;
+    line-height:60px;
+    /* ↑ボタンの中の文字を高さを中央に */
+    margin-bottom: 140px;
+    display: inline-block;
+    padding: 0.6em 2em;
+    background-color: #ffd700;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    }
+    .menu3:hover {
+    opacity: 0.6;
+    }
+
+.footer{
+    padding: 30px;
+ background-color:gray;
+color: #fff;
+}
+    
+
+
+
+.form-{
+display: flex;
+justify-content: center; 
+    align-items: center; 
+    /* line-height: 10px;     */
+}
+
+
+.textarea{
+    height: 50px;
+}
+
+
+.form-row .form1{
+    /* display: inline; */
+   width: 320px;
+   margin-left: 20px;
+    /* これで名前の横のフォームが固定されてる */
+     }
+
+
+.form-row-inner{
+    height: 150px;
+}
+
+
+.table-label-inner{
+    position: relative;
+    top: -50px; /* 上に20ピクセル移動 */
+}
+
+
+     .form-row .form1-s{
+        /* display: inline; */
+       width: 320px;
+       margin-left: 20px;
+       margin-top: 20px;
+       height:70%;
+        /* これで名前の横のフォームが固定されてる */
+         }
+
+
+     .form-row #selectb{
+        width: 320px;
+        margin-left: 15px;
+         /* これで名前の横のフォームが固定されてる */
+     margin-top: 20px;
+     height: 25px; 
+     position: relative;
+     top: -3px; /* 上に20ピクセル移動 */
+  
+    }    
+
+
+.table td{
+/* border: 1px solid #080807; */
+border-collapse: collapse;
+justify-content: center;
+font-size: 14px;
+width: 200px;
+height: 50px;
+}
+
+
+.table-label:first-child {
+    border-top: 1px solid #222222;
+}
+
+
+.table-label {
+    border-right: 1px solid #222222;
+    border-bottom: 1px solid #222222;
+    line-height: 50px;
+    text-align: left;
+   
+}
+
+
+
+.table-label-p {
+    line-height: 1.3;
+    border-right: 1px solid #222222;
+    border-bottom: 1px solid #222222;
+    text-align: left;
+}
+
+.table-label-p-inner{
+    position: relative;
+    top: -5px; /* 上に20ピクセル移動 */
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.table-label-r {
+    border-bottom: 1px solid #222222;
+    border-top: 1px solid #222222;
+}
+
+.table-label-r-p{
+    border-bottom: 1px solid #222222;
+    border-top: 1px solid #222222;
+    
+
+}
+
+
+select #selectb{
+height: 50px;
+}
+
+#selectb{
+    width: 180px;
+    margin-left: 20px;
+}
+
+.box-row{
+    line-height: 2;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
